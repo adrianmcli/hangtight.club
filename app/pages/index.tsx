@@ -18,34 +18,52 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <ConnectButton />
 
-        <h1 className={styles.title}>Welcome to HangTight.club</h1>
-
-        <p className={styles.description}>Currently serving customer number:</p>
-        <h1 style={{ fontSize: "4rem", marginTop: "0.5rem" }}>10</h1>
-
-        <p className={styles.description}>Now issuing ticket number:</p>
-        <h1 style={{ fontSize: "1.5rem", marginTop: "0.5rem" }}>12</h1>
-
-        <div className={styles.grid}>
-          <div className={styles.card}>
-            <h2>Issue Ticket</h2>
+        <div className={styles.colContainer}>
+          <div className={styles.column}>
             <div>
-              <button className={styles.button}>Issue</button>
+              <img src="/NounsRC_Logo.png" style={{ width: "320px" }} />
             </div>
-          </div>
+            <h1 className={styles.title}>HangTight.club</h1>
 
-          <div className={styles.card}>
-            <h2>Serve Ticket</h2>
-            <div>
-              <button className={styles.button}>Serve</button>
+            <p className={styles.description}>
+              A ticketing system for Nounish events!
+            </p>
+          </div>
+          <div className={styles.column}>
+            <p className={styles.description}>
+              Currently serving customer number:
+            </p>
+            <h1 style={{ fontSize: "4rem", marginTop: "0.5rem" }}>10</h1>
+
+            <p className={styles.description}>Now issuing ticket number:</p>
+            <h1 style={{ fontSize: "1.5rem", marginTop: "0.5rem" }}>12</h1>
+
+            <div className={styles.grid}>
+              <div className={styles.card}>
+                <h2>Issue Ticket</h2>
+                <div>
+                  <button className={styles.button}>Issue</button>
+                </div>
+              </div>
+
+              <div className={styles.card}>
+                <h2>Serve Ticket</h2>
+                <div>
+                  <button className={styles.button}>Serve</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
-          Made with ❤️ by your frens at 🌈
+        <a
+          href="https://twitter.com/NounsRC"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Made with ❤️ by your frens at Nouns ⌐◨-◨ Running Club 🏃‍♀️
         </a>
       </footer>
     </div>
