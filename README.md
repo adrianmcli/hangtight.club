@@ -1,7 +1,11 @@
-# hangtight.club 🎪
+# hangtight.club 
+
 Just hang in there, it's almost your turn 🎟️
 
-<img width="480" alt="image" src="https://github.com/adrianmcli/hangtight.club/assets/943555/dda7a88b-0b5a-4350-9f16-3dfe8d24c03a">
+Made with ❤️ by your frens at Nouns ⌐◨-◨ Running Club 🏃‍♀️
+
+<img width="958" alt="image" src="https://github.com/adrianmcli/hangtight.club/assets/943555/b62cd283-4b7c-47d5-b872-b8e5a418d2b7">
+
 
 # HangTight.club 🚀
 
