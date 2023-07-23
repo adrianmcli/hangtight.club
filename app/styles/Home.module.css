@@ -76,12 +76,38 @@
   max-width: 350px;
 }
 
-.card:hover,
+.button {
+  width: 5rem;
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #7873f5, #ff6ec4);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+/* .card:hover,
 .card:focus,
 .card:active {
   color: #0d76fc;
   border-color: #0d76fc;
-}
+} */
 
 .card h2 {
   margin: 0 0 1rem 0;
